@@ -1,0 +1,94 @@
+@import "colors";
+
+header {
+  .top-bar {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    border-bottom: solid 1px #ccc;
+
+    .cust-nav {
+      display: flex;
+      justify-content: space-between;
+
+      .navbar-brand {
+        padding: 0;
+      }
+    }
+
+    .right-side {
+      display: flex;
+      justify-content: flex-end;
+
+      ul {
+        height: 100%;
+        align-items: center;
+        flex-direction: row;
+      }
+
+      .nav-link {
+        transition: 0.3s;
+        padding: 0 15px;
+
+        img {
+          // opacity: 0.7;
+
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
+
+.no-arrow-down {
+  .btn {
+    display: flex;
+    align-items: center;
+    padding: 0;
+
+    &:after {
+      content: none;
+    }
+  }
+}
+
+.cust-dropdown {
+  width: 400px;
+  height: 400px;
+
+  .card-header {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  .card-body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 100px;
+      margin-bottom: 30px;
+    }
+
+    h4 {
+      margin-bottom: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #232323;
+    }
+
+    p {
+      color: #555;
+    }
+  }
+}

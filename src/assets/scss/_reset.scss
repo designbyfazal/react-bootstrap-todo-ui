@@ -1,0 +1,20 @@
+p,
+a,
+li,
+button,
+label {
+  font-size: 14px;
+}
+a,
+button,
+.btn-link {
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+.btn {
+  font-size: 14px;
+}
