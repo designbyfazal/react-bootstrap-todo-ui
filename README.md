@@ -4,6 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
+
+Run the above command to install all the dependencies. or Manuall install Bootstrap 4 by typing command: npm install --save bootstrap
+
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />
